@@ -2,8 +2,10 @@
   "name": "gin-core",
   "version": "1.0.0",
   "description": "core script for gin",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
